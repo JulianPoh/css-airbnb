@@ -1,3 +1,105 @@
 h1 {
-  color: salmon;
+  color: grey;
+  font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#middle {
+    text-align: center;
+    padding: 5px;
+}
+
+#footer {
+    text-align: center;
+    padding: 5px;
+}
+
+.location {
+    display: inline-block;
+    margin: 5px 5px; 
+    padding: 5px;   
+}
+
+
+button {
+    text-align: center;
+    width: 0 auto;
+    height: 20px;
+}
+
+#sf1 {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    background-image: url("../img/san-francisco.jpg");
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+
+#sf2 {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    background-image: url("../img/san-francisco-2.jpg");
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+
+
+#london {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    background-image: url("../img/london.jpg");
+    text-align: center;
+    background-size: cover;
+    color: white;    
+}
+
+
+#ny {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    background-image: url("../img/new-york.jpg");
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+
+#sonoma {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    background-image: url("../img/sonoma.jpg");
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+
+#napa {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    background-image: url("../img/napa.jpg");
+    text-align: center;
+    background-size: cover;
+    color: white;
 }
